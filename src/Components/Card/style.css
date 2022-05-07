@@ -1,0 +1,62 @@
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-container {
+  width: 380px;
+  cursor: pointer;
+}
+.card-container:nth-child(2) {
+  margin: 0 65px;
+}
+.img-container img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 380px;
+  height: 237.5px;
+  
+}
+.img-container img:hover {
+  transform: scale(1.1);
+  
+}
+
+.card-title {
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: 25.5px;
+}
+.card-title h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.card-title p {
+  color: rgba(221, 88, 88, 1);
+}
+.card-rate {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.card-rate span {
+  margin-left: 10px;
+  color: #888;
+  text-transform: capitalize;
+}
+.card-text {
+  font-size: 20px;
+  color: rgba(95, 95, 95, 1);
+  margin: 29px 0 40px 0;
+}
+
+.card-date {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
